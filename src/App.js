@@ -14,7 +14,7 @@ import Checkout from './routes/checkout/checkout.component';
 import Navigation from "./routes/navigation/navigation.component";
 import Authentication from './routes/authentication/authentication.component';
 
-import { setCurrentUser } from "./store/user/user.actions";
+import { setCurrentUser } from "./store/user/user.action";
 
 const App = () => {
   const dispatch = useDispatch();
